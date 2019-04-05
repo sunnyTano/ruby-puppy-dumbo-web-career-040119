@@ -1,8 +1,8 @@
 require 'pry'
 
-attr_accessor :name
-
 class Dog 
+  
+  attr_accessor :name
   
   @@all = []
   
@@ -16,4 +16,5 @@ class Dog
       puts "#{dog}"
     end 
   end 
+  
 end 
